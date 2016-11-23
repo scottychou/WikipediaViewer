@@ -2,11 +2,15 @@
 <html>
   <head>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="vendor/bootstrap.min.css">
     <link rel="stylesheet" href="css/stylesheet.min.css">
     <meta charset="utf-8">
-    <title>Random Quote Machine</title>
+    <title>WIKI VIEWER</title>
   </head>
   <body>
+    <div id="mainDiv" class="container">
+      <SearchBox />
+    </div>
 
 
     <footer id=myFooter>
@@ -17,12 +21,13 @@
       <p>© 2016 <a href="#">Scott Chou</a>. All rights reserved.</p>
     </footer>
     <!-- js scripts -->
-    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="vendor/jquery-3.1.1.min.js"></script>
     <script src="js/script.js"></script>
     <!-- react scripts -->
-    <script src= "vendors/react.js" ></script>
-    <script src= "vendors/react-dom.js" ></script>
-    <script src= "vendors/babel.js" ></script>
-    <script type= "text/babel"  src= "components.js" ></script>
+    <script src= "vendor/react.min.js" ></script>
+    <script src= "vendor/react-dom.min.js" ></script>
+    <script src= "vendor/babel.min.js" ></script>
+    <!-- <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script> -->
+    <script type= "text/babel"  src= "js/components.js" ></script>
   </body>
   </html>
