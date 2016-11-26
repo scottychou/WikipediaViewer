@@ -1,10 +1,9 @@
 class SearchForm extends React.Component {
 	render() {
 		return (
-      <div>
-        CLICK AND HIT ENTER TO SEARCH
+      <div className="search-form-div">
         <form className="search-form" onSubmit={this._handleSubmit.bind(this)}>
-          <input placeholder="search something" ref={input => this._search = input}/>
+          <input placeholder="search something..." ref={input => this._search = input}/>
           <button type="submit">SEARCH HERE</button>
         </form>
       </div>

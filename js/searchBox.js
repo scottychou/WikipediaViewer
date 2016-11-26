@@ -16,7 +16,7 @@ class SearchBox extends React.Component {
       searchNodes = <div className="search-list">{searchList}</div>;
     }
     return (
-      <div id="searchBox">
+      <div id="searchBox" className="text-center">
         <SearchForm handleResponse={this._handleResponse.bind(this)} />
 				{searchNodes}
       </div>
